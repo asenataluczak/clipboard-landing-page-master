@@ -16,6 +16,15 @@ ul {
   margin: 0 8%;
 }
 
+/* SPONSORS */
+.sponsors {
+    margin: 20% 0;
+}
+
+.sponsors__logo {
+    margin: 15% 0;
+}
+
 /* DOWNLOAD */
 .download__button {
   width: 100%;
