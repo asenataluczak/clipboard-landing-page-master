@@ -31,8 +31,7 @@ ul {
 /* images */
 .access__img,
 .functionalities__img {
-  width: 100%;
-  margin: 5% 0;
+  max-width: 100%;
 }
 
 /* section spacing */
@@ -131,14 +130,22 @@ ul {
   /* FUNCTIONALITIES SECTION */
   .functionalities__flex-container {
     display: flex;
+    justify-content: end;
     text-align: left;
+    position: relative;
+  }
+
+  .functionalities__flex-item {
+    width: 300px;
+    height: 500px;
   }
 
   .functionalities__img {
-    position: relative;
-    left: -20%;
+    position: absolute;
+    left: -40%;
     top: 0;
     margin: 0;
+    object-fit: scale-down;
   }
 
   /* TOOLS SECTION */
@@ -193,6 +200,27 @@ ul {
   }
 
   .download__button {
-    width: 370px;
+    width: 250px;
+    margin: 0 1rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    margin: 0 15%;
+  }
+
+  .footer {
+    padding: 3% 15%;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .functionalities__flex-item {
+    width: 30%;
+  }
+
+  .functionalities__img {
+    left: 0;
   }
 }
