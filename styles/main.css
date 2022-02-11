@@ -25,7 +25,7 @@ ul {
 .tools__description,
 .download__description {
   color: #9fabb2;
-  margin: 5% 0 15%;
+  margin: 2rem 0 5rem;
 }
 
 /* images */
@@ -39,7 +39,7 @@ ul {
 .sponsors,
 .access,
 .header {
-  margin: 5rem 0;
+  margin: 8rem 0;
 }
 
 /* logos */
@@ -119,6 +119,26 @@ ul {
 }
 
 @media screen and (min-width: 992px) {
+  .container {
+    margin: 0 10%;
+  }
+
+  /* images */
+  .access__img,
+  .functionalities__img {
+    width: 60%;
+  }
+
+  /* TOOLS SECTION */
+  .tools__boxes {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .tools__box {
+    width: 30%;
+  }
+
   /* SPONSORS SECTION */
   .sponsors {
     display: flex;
@@ -128,7 +148,7 @@ ul {
   /* FOOTER SECTION */
   .footer {
     box-sizing: border-box;
-    padding: 3% 8%;
+    padding: 3% 10%;
     display: flex;
     align-items: center;
     width: 100%;
