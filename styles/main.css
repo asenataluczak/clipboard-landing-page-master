@@ -119,6 +119,12 @@ ul {
 }
 
 @media screen and (min-width: 992px) {
+  /* SPONSORS SECTION */
+  .sponsors {
+    display: flex;
+    justify-content: space-between;
+  }
+
   /* FOOTER SECTION */
   .footer {
     box-sizing: border-box;
