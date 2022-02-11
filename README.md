@@ -4,6 +4,8 @@
 
 This project was build as a part of frontend classes conducted within the Information Technology Club [LearnIT](learnit.how) :)
 
+***
+
 ### The challenge
 
 The challenge is to provide a solution for the [Clipboard landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/clipboard-landing-page-5cc9bccd6c4c91111378ecb9).
