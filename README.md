@@ -1,4 +1,4 @@
-# Frontend Mentor - Clipboard landing page solution
+# Clipboard landing page solution
 
 ![](./images/logo_lit.jpg)
 
@@ -15,7 +15,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./images/screenshot.jpg)
 
 ### Used concepts
 
